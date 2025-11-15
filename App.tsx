@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { EXPERIENCES, SKILLS, EDUCATION, IconMail, IconLink, IconPhone } from './constants';
 import Card from './components/Card';
@@ -22,7 +21,7 @@ const App: React.FC = () => {
             <h1 className="text-4xl md:text-5xl font-extrabold text-white">Brendan Cooney</h1>
             <h2 className="text-xl md:text-2xl font-semibold text-cyan-400 mt-2">Sales & Digital Marketing Professional</h2>
             <p className="mt-4 max-w-xl text-gray-400">
-              Dynamic sales and customer success professional with extensive experience in digital marketing, account management, and payment solutions. Passionate about leveraging technology to simplify processes, enhance customer journeys, and exceed sales targets.
+              With over 20 years of experience, I am a results-driven professional blending sales, digital marketing, and operations expertise. My career began in South Africa, where I founded and scaled a major digital signage network. Upon relocating to Ireland, I continued to excel, significantly boosting lead generation and online engagement for multiple companies through strategic digital marketing initiatives. Currently, I am expanding my operational and analytical skills in a high-precision manufacturing environment at Freudenberg. I am passionate about leveraging technology and data-driven insights to foster business growth and efficiency.
             </p>
             <div className="mt-6 flex items-center gap-4">
               <a href="mailto:advicast@gmail.com" className="text-gray-400 hover:text-cyan-400 transition-colors duration-300"><IconMail className="w-6 h-6" /></a>
@@ -31,7 +30,7 @@ const App: React.FC = () => {
             </div>
           </div>
            <div className="mb-8 md:mb-0 md:ml-10">
-              <img src="https://picsum.photos/seed/brendan/150/150" alt="Brendan Cooney" className="rounded-full w-32 h-32 md:w-40 md:h-40 border-4 border-gray-700 shadow-lg"/>
+              <img src="https://res.cloudinary.com/dulvjkxha/image/upload/v1763206641/CV/BC_Profile_Toptal_q8ossa.jpg" alt="Brendan Cooney" className="rounded-full w-32 h-32 md:w-40 md:h-40 border-4 border-gray-700 shadow-lg"/>
            </div>
         </header>
 
