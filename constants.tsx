@@ -1,3 +1,4 @@
+
 import React from 'react';
 import type { Experience, SkillCategory, Education } from './types';
 
@@ -57,7 +58,7 @@ export const EXPERIENCES: Experience[] = [
   {
     role: "Process Assurance Operator",
     company: "Freudenberg Medical (Formerly VistaMed) - Carrick-On-Shannon, County Leitrim",
-    period: "June 2024 - Present",
+    period: "June 2024 - Feb 2025",
     description: [
       "Operation of process equipment and microscope inspection.",
       "Ensuring adherence to all work procedures and agreed specifications.",
