@@ -1,8 +1,9 @@
 
 import React from 'react';
-import { EXPERIENCES, SKILLS, EDUCATION, IconMail, IconLink, IconPhone, IconDownload } from './constants';
+import { EXPERIENCES, SKILLS, EDUCATION, IconMail, IconLink, IconPhone, IconDownload, EXPERTISE_LEVELS } from './constants';
 import Card from './components/Card';
 import SkillPill from './components/SkillPill';
+import ExperienceBarGraph from './components/ExperienceBarGraph';
 
 const Section: React.FC<{ title: string; children: React.ReactNode; className?: string }> = ({ title, children, className = '' }) => (
   <section className={`py-12 ${className}`}>
@@ -103,6 +104,11 @@ const App: React.FC = () => {
                 </Card>
               ))}
             </div>
+          </Section>
+
+          {/* Expertise Overview Section */}
+          <Section title="Expertise Overview">
+            <ExperienceBarGraph expertiseData={EXPERTISE_LEVELS} />
           </Section>
 
         </main>

@@ -1,6 +1,6 @@
 
 import React from 'react';
-import type { Experience, SkillCategory, Education } from './types';
+import type { Experience, SkillCategory, Education, ExpertiseLevel } from './types';
 
 export const IconGitHub = (props: React.SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" {...props}>
@@ -170,4 +170,11 @@ export const EDUCATION: Education[] = [
         institution: "Parktown Boys' High School - Johannesburg, ZA",
         period: "December 1995",
     }
+];
+
+export const EXPERTISE_LEVELS: ExpertiseLevel[] = [
+  { skill: "Sales & Business Development", percentage: 95 },
+  { skill: "Digital Marketing", percentage: 90 },
+  { skill: "Business Operations & Management", percentage: 80 },
+  { skill: "Web Development", percentage: 50 },
 ];

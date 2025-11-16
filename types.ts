@@ -17,3 +17,8 @@ export interface Education {
     institution: string;
     period: string;
 }
+
+export interface ExpertiseLevel {
+  skill: string;
+  percentage: number;
+}
