@@ -1,4 +1,3 @@
-
 import React from 'react';
 import type { Experience, SkillCategory, Education } from './types';
 
@@ -30,6 +29,13 @@ export const IconPhone = (props: React.SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" {...props}>
     <path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56-.35-.12-.74-.03-1.01.24l-1.57 1.97c-2.83-1.35-5.21-3.72-6.56-6.56l1.97-1.57c.27-.27.36-.66.24-1.01-.37-1.11-.56-2.3-.56-3.53 0-.54-.45-.99-.99-.99H4.19C3.65 3 3 3.24 3 3.99 3 13.28 10.73 21 20.01 21c.71 0 .99-.63.99-1.18v-3.45c0-.54-.45-.99-.99-.99z"/>
   </svg>
+);
+
+export const IconDownload = (props: React.SVGProps<SVGSVGElement>) => (
+    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="currentColor" {...props}>
+        <path d="M0 0h24v24H0V0z" fill="none"/>
+        <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/>
+    </svg>
 );
 
 
@@ -143,7 +149,7 @@ export const SKILLS: SkillCategory[] = [
     },
     {
         title: "Software & Tools",
-        skills: ["CRM Implementation", "Microsoft Office", "WordPress", "SaaS Platforms", "Active Campaign"],
+        skills: ["CRM Implementation", "Microsoft Office", "WordPress", "SaaS Platforms", "Active Campaign", "Web development", "html", "CSS", "javascript", "python"],
     }
 ];
 

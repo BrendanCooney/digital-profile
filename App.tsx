@@ -1,5 +1,6 @@
+
 import React from 'react';
-import { EXPERIENCES, SKILLS, EDUCATION, IconMail, IconLink, IconPhone } from './constants';
+import { EXPERIENCES, SKILLS, EDUCATION, IconMail, IconLink, IconPhone, IconDownload } from './constants';
 import Card from './components/Card';
 import SkillPill from './components/SkillPill';
 
@@ -23,10 +24,19 @@ const App: React.FC = () => {
             <p className="mt-4 max-w-xl text-gray-400">
               With over 20 years of experience, I am a results-driven professional blending sales, digital marketing, and operations expertise. My career began in South Africa, where I founded and scaled a major digital signage network. Upon relocating to Ireland, I continued to excel, significantly boosting lead generation and online engagement for multiple companies through strategic digital marketing initiatives. Currently, I am expanding my operational and analytical skills in a high-precision manufacturing environment at Freudenberg. I am passionate about leveraging technology and data-driven insights to foster business growth and efficiency.
             </p>
-            <div className="mt-6 flex items-center gap-4">
+            <div className="mt-6 flex items-center gap-4 flex-wrap">
               <a href="mailto:advicast@gmail.com" className="text-gray-400 hover:text-cyan-400 transition-colors duration-300"><IconMail className="w-6 h-6" /></a>
               <a href="tel:+353831304031" className="text-gray-400 hover:text-cyan-400 transition-colors duration-300"><IconPhone className="w-6 h-6" /></a>
               <a href="https://brendancooney.bio.link/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-cyan-400 transition-colors duration-300"><IconLink className="w-6 h-6" /></a>
+              <a 
+                href="https://drive.google.com/file/d/1QRAi4Hp5S-_4eKtc-wpGA2QEqWhEC_IK/view"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 bg-cyan-600 text-white font-bold py-2 px-5 rounded-md hover:bg-cyan-500 transition-all duration-300 shadow-lg hover:shadow-cyan-500/50 transform hover:-translate-y-0.5"
+              >
+                <IconDownload className="w-5 h-5" />
+                <span>Download CV</span>
+              </a>
             </div>
           </div>
            <div className="mb-8 md:mb-0 md:ml-10">
